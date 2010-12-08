@@ -24,6 +24,8 @@ class Bag
         typedef typename C::const_iterator const_iterator;
         typedef typename C::reference reference;
         typedef typename C::const_reference const_reference;
+        typedef typename C::reverse_iterator reverse_iterator;
+        typedef typename C::const_reverse_iterator const_reverse_iterator;
         typedef typename C::allocator_type allocator_type;
         // Constructor
         Bag(){}
