@@ -29,10 +29,10 @@ class Bag
         typedef typename C::allocator_type allocator_type;
         // Constructor
         Bag(){}
-        Bag()(const Bag<T,C> &x){StorageContainer = x.StorageContainer}
+        //Bag()(const Bag<T,C> &x){StorageContainer = x.StorageContainer}
         ~Bag(){}
         // =
-        Bag<T,C> &operator=(const Bag<T,C> &x){StorageContainer = x.StorageContainer}
+        Bag<T,C> &operator=(const Bag<T,C> &x){StorageContainer = x.StorageContainer;}
         // Begin
         iterator begin(){return (StorageContainer.begin());}
         const_iterator begin() const {return (StorageContainer.begin());}
