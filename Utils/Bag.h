@@ -50,7 +50,7 @@ class Bag
         // MaxSize
         size_t max_size() const {return (StorageContainer.max_size());}
         // Resize
-        void resize(size_type sz, T c = T()) {(StorageContainer.resize(sz, c));}
+        void resize(size_t sz, T c = T()) {(StorageContainer.resize(sz, c));}
         // Capacity
         size_t capacity() const {return (StorageContainer.capacity());}
         // Empty
@@ -70,14 +70,14 @@ class Bag
         reference back() {return (StorageContainer.back());}
         const_reference back() const {return (StorageContainer.back());}
         // Assign
-        void assign(size_type n, const T& u) {(StorageContainer.assign(n, u));}
+        void assign(size_t n, const T& u) {(StorageContainer.assign(n, u));}
         // Push_Back
         void push_back(const T &x) {StorageContainer.push_back(x);}
         // Pop_Back
         void pop_back(){StorageContainer.pop_back();}
         // Insert
         iterator insert(iterator position, const T& x) {return (StorageContainer.insert(position, x));}
-        void insert(iterator position, size_type n, const T& x)  {return (StorageContainer.insert(position, n, x));}
+        void insert(iterator position, size_t n, const T& x)  {return (StorageContainer.insert(position, n, x));}
         // Erase
         iterator erase(iterator position)
         {
