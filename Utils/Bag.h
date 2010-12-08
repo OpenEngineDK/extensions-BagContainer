@@ -12,7 +12,7 @@
 #include <vector>
 
 namespace OpenEngine {
-namespace Util {
+namespace Utils {
 
 template <typename T, typename C = std::vector<T> >
 class Bag 
