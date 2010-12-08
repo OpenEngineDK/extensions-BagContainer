@@ -1,13 +1,9 @@
 # Create the extension library
 
-SET( EXTENSION_NAME "Extensions_pThreadSemaphore")
+SET( EXTENSION_NAME "Extensions_BagContainer")
 
 ADD_LIBRARY( ${EXTENSION_NAME}
 	dummy.cpp
-	Core\Semaphore.h
-)
-
-TARGET_LINK_LIBRARIES( ${EXTENSION_NAME}
-  ${PTHREAD_SEMAPHORE_LIBRARY}
+	Util\Bag.h
 )
 
