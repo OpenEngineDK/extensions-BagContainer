@@ -1,4 +1,4 @@
 # project repository
 # (uncomment the following two lines after uploading your project)
-darcs /extensions/BagContainer http://openengine.dk/code/extensions/BagContainer/
-darcs-dev /extensions/BagContainer fh.daimi.au.dk:/users/cgd/code/extensions/BagContainer/
+git /extensions/BagContainer https://github.com/OpenEngineDK/extensions/BagContainer-.git
+git-dev /extensions/BagContainer git@github.com:OpenEngineDK/extensions/BagContainer-.git
